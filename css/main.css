@@ -1,0 +1,140 @@
+#wrapper1{
+	width: 238px;
+	height: 500px;
+	display: inline-block;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
+#vvod{
+	margin: 2px;
+	display: block;
+	width: 230px;
+	height: 150px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
+p{
+	margin: 2px;
+	text-align: center;
+}
+.inplable{
+	position: relative;
+	top:3px;
+	left:20px;
+	font-size: 20px;
+}
+.inp{
+	position: relative;
+	left:20px;
+	margin: 0;
+	width: 50px;
+	height: 20px;
+}
+.but{
+	position: relative;
+	top:8px;
+	left:15px;
+	width: 100px;
+	display: inline-block;
+	padding: 0;
+}
+#add,#remove{
+	display: block;
+	top:50px;
+	margin: auto;
+}
+#randomlable{
+	text-align: center;
+	position: relative;
+	top:15px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: black;
+
+
+}
+#randominp{
+	position: relative;
+	left: 0;
+}
+/*/////////////////////////////////////////////////////////*/
+#disp_data{
+	color: #A9A9A9;
+	margin: 2px;
+	width: 230px;
+	display: block;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
+#intext{
+	height: 310px;
+	overflow: auto; 
+	text-align: center;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+#wrapper2{
+	position: absolute;
+	width: 140px;
+	height: 500px;
+	margin-left: 3px;
+	display: inline-block;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
+#choose{
+	margin: 2px;
+}
+
+.but1{
+	display: block;
+	margin:10px;
+}
+#means,#forel{
+	height: 50px;
+	width: 100px;
+}
+#lable3,#lable4,#lable5{
+	display: block;
+	font-size: 15px;
+	margin: 5px;
+}
+.input-2{
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 70px;
+	height: 20px;
+}
+.wrapper3{
+	height: 160px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	margin: 2px;
+}
+/*/////////////////////////////////////////////////////////////////////*/
+#wrapper4{
+	position: absolute;
+	left:400px;
+	width: 700px;
+	height: 500px;
+	margin-left: 3px;
+	display: inline-block;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
+#graf{
+	position:absolute;
+	top: 20px;
+	left:20px;
+	width: 600px;
+	height: 400px;
+}
+/*.flot-tick-label{
+	color:red;
+}*/

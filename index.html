@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>trand</title>
+	<script src="script/jquery.js" type="text/javascript" ></script>
+	<script src="script/jquery.flot.js" type="text/javascript" charset="utf-8"></script>
+	<script src="script/k-means.js" type="text/javascript" charset="utf-8"></script>
+	<script src="script/forel.js" type="text/javascript" charset="utf-8"></script>
+	<script src="script/script.js" type="text/javascript" charset="utf-8" ></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id="wrapper1">
+		<div id="vvod">
+			<p>Введите новую точку</p>
+			<div id="coord">
+				<label for="inputX" class="inplable">X=</label>
+				<input class="inp" id="inputX" type="text">
+				<label for="inputY" class="inplable">Y=</label>
+				<input class="inp" id="inputY" type="text">
+			</div>
+			<div class = "but"><button id="add">Добавить</button></div>
+			<div class = "but"><button id="remove">Удалить</button></div>
+			<div id="randomlable">Создать рандомный массив из N элементов
+				<input class="inp" id="randominp" type="text">
+				<button id="randombut">Рандом</button>
+			</div>
+		</div>
+		<div id="disp_data">
+			<pre id="intext"></pre>
+		</div>
+	</div>
+	<div id="wrapper2">
+		<div id="choose">
+			<div class="wrapper3">
+				<label for="radio" id="lable3">Выберите метод</label>
+				<input type="radio" name="metod" id ="mink" value="1" checked />Минковского 
+				<input type="radio" name="metod" id ="mmr"  value="2" />Минимум модулей разности 
+			</div>
+			<div class="wrapper3">
+				<label for="input-num-clas" id="lable4">Введите количество кластеров</label>
+				<input class="input-2" id="input-num-clas" type="text">
+				<div class = "but1">
+					<button id="means">k-means</button>
+				</div>
+			</div>
+			<div class="wrapper3">
+				<label for="inputR" id="lable5">Введите радиус кластера</label>
+				<input class="input-2" id="inputR" type="text">
+				<div class = "but1">
+					<button id="forel">forel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper4">
+		<div id="graf" class='flot-tick-label'>
+		</div>
+	</div>
+</body>
+</html>
